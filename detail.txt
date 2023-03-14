@@ -1,0 +1,5 @@
+create Model(Product)        mapping to collection(database table) name="products"
+create DTO                   create ProductRequest and ProductResponse
+create ProductController     Dependency Injection ProductService
+create ProductRepository     
+create ProductService        createProduct() getAllProduct()
